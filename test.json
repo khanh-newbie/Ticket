@@ -1,0 +1,126 @@
+{
+    "code": 200,
+    "data": [
+        {
+            "id": 1,
+            "cart_id": 1,
+            "ticket_type_id": 63,
+            "quantity": 142,
+            "added_at": null,
+            "created_at": "2025-11-27T15:38:18.000000Z",
+            "updated_at": "2025-11-27T15:53:42.000000Z",
+            "ticket_type": {
+                "id": 63,
+                "schedule_id": 32,
+                "name": "Standard",
+                "base_price": 225000,
+                "total_quantity": 166,
+                "available_quantity": 132,
+                "status": "1",
+                "created_at": "2025-11-15T15:02:49.000000Z",
+                "updated_at": "2025-11-15T15:02:49.000000Z"
+            }
+        },
+        {
+            "id": 2,
+            "cart_id": 1,
+            "ticket_type_id": 64,
+            "quantity": 4,
+            "added_at": null,
+            "created_at": "2025-11-27T15:47:40.000000Z",
+            "updated_at": "2025-11-27T16:03:43.000000Z",
+            "ticket_type": {
+                "id": 64,
+                "schedule_id": 32,
+                "name": "VIP",
+                "base_price": 505000,
+                "total_quantity": 134,
+                "available_quantity": 139,
+                "status": "1",
+                "created_at": "2025-11-15T15:02:49.000000Z",
+                "updated_at": "2025-11-15T15:02:49.000000Z"
+            }
+        },
+        {
+            "id": 4,
+            "cart_id": 1,
+            "ticket_type_id": 65,
+            "quantity": 3,
+            "added_at": null,
+            "created_at": "2025-11-27T15:51:02.000000Z",
+            "updated_at": "2025-11-27T16:02:09.000000Z",
+            "ticket_type": {
+                "id": 65,
+                "schedule_id": 33,
+                "name": "Standard",
+                "base_price": 286000,
+                "total_quantity": 169,
+                "available_quantity": 272,
+                "status": "1",
+                "created_at": "2025-11-15T15:02:49.000000Z",
+                "updated_at": "2025-11-15T15:02:49.000000Z"
+            }
+        },
+        {
+            "id": 5,
+            "cart_id": 1,
+            "ticket_type_id": 66,
+            "quantity": 3,
+            "added_at": null,
+            "created_at": "2025-11-27T15:54:44.000000Z",
+            "updated_at": "2025-11-27T15:54:54.000000Z",
+            "ticket_type": {
+                "id": 66,
+                "schedule_id": 33,
+                "name": "VIP",
+                "base_price": 487000,
+                "total_quantity": 148,
+                "available_quantity": 142,
+                "status": "1",
+                "created_at": "2025-11-15T15:02:49.000000Z",
+                "updated_at": "2025-11-15T15:02:49.000000Z"
+            }
+        },
+        {
+            "id": 6,
+            "cart_id": 1,
+            "ticket_type_id": 67,
+            "quantity": 1,
+            "added_at": null,
+            "created_at": "2025-11-27T16:02:30.000000Z",
+            "updated_at": "2025-11-27T16:02:30.000000Z",
+            "ticket_type": {
+                "id": 67,
+                "schedule_id": 34,
+                "name": "Standard",
+                "base_price": 242000,
+                "total_quantity": 170,
+                "available_quantity": 455,
+                "status": "1",
+                "created_at": "2025-11-15T15:02:49.000000Z",
+                "updated_at": "2025-11-15T15:02:49.000000Z"
+            }
+        },
+        {
+            "id": 3,
+            "cart_id": 1,
+            "ticket_type_id": 68,
+            "quantity": 7,
+            "added_at": null,
+            "created_at": "2025-11-27T15:49:12.000000Z",
+            "updated_at": "2025-11-27T15:49:13.000000Z",
+            "ticket_type": {
+                "id": 68,
+                "schedule_id": 34,
+                "name": "VIP",
+                "base_price": 407000,
+                "total_quantity": 105,
+                "available_quantity": 91,
+                "status": "1",
+                "created_at": "2025-11-15T15:02:49.000000Z",
+                "updated_at": "2025-11-15T15:02:49.000000Z"
+            }
+        }
+    ],
+    "message": "Success."
+}

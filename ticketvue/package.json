@@ -1,0 +1,41 @@
+{
+  "name": "ticketvue",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm:tw:build\" \"vite\"",
+    "tw:build": "npx tailwindcss -i ./src/assets/input.css -o ./src/assets/output.css --watch",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "@tinymce/tinymce-vue": "^6.3.0",
+    "@vuepic/vue-datepicker": "^12.0.4",
+    "axios": "^1.13.2",
+    "boxicons": "^2.1.4",
+    "chart.js": "^4.5.1",
+    "firebase": "^12.5.0",
+    "pinia": "^3.0.4",
+    "sub-vn": "^0.0.2",
+    "sweetalert2": "^11.26.10",
+    "tinymce": "^8.2.1",
+    "vue": "^3.5.22",
+    "vue-chartjs": "^5.3.3",
+    "vue-router": "^4.6.3",
+    "vue3-google-login": "^2.0.34"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "autoprefixer": "^10.4.21",
+    "concurrently": "^9.2.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16",
+    "vite": "^7.1.11",
+    "vite-plugin-vue-devtools": "^8.0.3"
+  }
+}
